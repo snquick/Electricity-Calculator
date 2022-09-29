@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Electricity Calculator!</title>
+        <link rel="stylesheet" href="style2.css">
+        <script src="simple.js"></script>
+    </head>
+    <body>
+     <div class="container">
+        <h1>Electricity Calculator</h1>
+        <table class="eCalculator">
+            <tr>
+                <td>Voltage:</td>
+                <td><input id="vol" type="text" value="" size="25"></td>
+            </tr>
+            <tr>
+                <td>Resistance:</td>
+                <td><input id="res" type="text" value="" size="25"></td>
+            </tr>
+            <tr>
+                <td>Power: </td>
+                <td id="power" type="text" value="0" size="25"></td>
+            </tr>          
+        </table>
+        <button type="button" onclick="eConsumed()">Calculate Electricity Consumed</button>
+        </div>
+    </body>
+</html>
